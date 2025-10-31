@@ -11,6 +11,26 @@ const routes: Array<RouteRecordRaw> = [
     path: '/home',
     name: 'Home',
     component: HomePage
+  },
+  {
+    path: '/notifications',
+    name: 'LocalNotifications',
+    component: () => import('../views/LocalNotificationsPage.vue')
+  },
+  {
+    path: '/notifications/quick',
+    name: 'QuickNotification',
+    component: () => import('../views/QuickNotificationPage.vue')
+  },
+  {
+    path: '/geolocation',
+    name: 'Geolocation',
+    component: () => import('../views/GeolocationPage.vue')
+  },
+  {
+    path: '/camera',
+    name: 'CameraPhoto',
+    component: () => import('../views/cameraPhoto.vue')
   }
 ]
 

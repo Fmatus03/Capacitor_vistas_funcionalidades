@@ -12,35 +12,39 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@capacitor/app": "7.1.0",
-    "@capacitor/core": "7.4.4",
-    "@capacitor/haptics": "7.0.2",
-    "@capacitor/keyboard": "7.0.3",
-    "@capacitor/status-bar": "7.0.3",
-    "@ionic/vue": "^8.0.0",
-    "@ionic/vue-router": "^8.0.0",
-    "ionicons": "^7.0.0",
-    "vue": "^3.3.0",
-    "vue-router": "^4.2.0"
+    "@capacitor/android": "^7.5.1",
+    "@capacitor/app": "^7.1.1",
+    "@capacitor/camera": "^7.1.1",
+    "@capacitor/core": "^7.5.1",
+    "@capacitor/geolocation": "^7.2.0",
+    "@capacitor/haptics": "^7.1.1",
+    "@capacitor/keyboard": "^7.1.1",
+    "@capacitor/local-notifications": "^7.1.0",
+    "@capacitor/status-bar": "^7.1.1",
+    "@ionic/vue": "^8.2.3",
+    "@ionic/vue-router": "^8.2.3",
+    "ionicons": "^7.2.2",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
-    "@capacitor/cli": "7.4.4",
-    "@vitejs/plugin-legacy": "^5.0.0",
-    "@vitejs/plugin-vue": "^4.0.0",
-    "@vue/eslint-config-typescript": "^12.0.0",
-    "@vue/test-utils": "^2.3.0",
-    "cypress": "^13.5.0",
-    "eslint": "^8.35.0",
-    "eslint-plugin-vue": "^9.9.0",
-    "jsdom": "^22.1.0",
-    "terser": "^5.4.0",
-    "typescript": "~5.6.2",
-    "vite": "~5.2.0",
-    "vitest": "^0.34.6",
+    "@capacitor/cli": "^7.5.1",
+    "@vitejs/plugin-legacy": "^5.1.0",
+    "@vitejs/plugin-vue": "^5.1.1",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/test-utils": "^2.4.5",
+    "cypress": "^14.0.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.29.0",
+    "jsdom": "^24.1.0",
+    "terser": "^5.31.5",
+    "typescript": "~5.6.3",
+    "vite": "~5.4.8",
+    "vitest": "^1.6.0",
     "vue-tsc": "^2.1.10"
   },
   "overrides": {
-    "rollup": "4.44.0"
+    "rollup": "4.24.3"
   },
   "description": "An Ionic project"
 }

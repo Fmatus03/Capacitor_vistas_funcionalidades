@@ -16,13 +16,25 @@
       <div id="container">
         <strong>Ready to create an app?</strong>
         <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <ion-button expand="block" router-link="/notifications">
+          Probar notificaciones locales
+        </ion-button>
+        <ion-button expand="block" router-link="/notifications/quick" color="secondary">
+          Notificación inmediata
+        </ion-button>
+        <ion-button expand="block" router-link="/geolocation" color="tertiary">
+          Geolocalización
+        </ion-button>
+        <ion-button expand="block" router-link="/camera" color="dark">
+          Cámara
+        </ion-button>
       </div>
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
 </script>
 
 <style scoped>
