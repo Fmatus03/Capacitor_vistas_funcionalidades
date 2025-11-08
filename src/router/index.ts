@@ -31,6 +31,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/camera',
     name: 'CameraPhoto',
     component: () => import('../views/cameraPhoto.vue')
+  },
+  {
+    path: '/voice-recorder',
+    name: 'VoiceRecorder',
+    component: () => import('../views/VoiceRecorderPage.vue')
   }
 ]
 

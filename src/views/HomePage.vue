@@ -28,6 +28,9 @@
         <ion-button expand="block" router-link="/camera" color="dark">
           Cámara
         </ion-button>
+        <ion-button expand="block" router-link="/voice-recorder" color="warning">
+          Grabadora de voz
+        </ion-button>
       </div>
     </ion-content>
   </ion-page>
